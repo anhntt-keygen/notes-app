@@ -1,0 +1,51 @@
+/* Custom Cozy Coffee Theme Override & Styling Animations */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Scrollbar for modern touch */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F2EB;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C7B299;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A1887F;
+}
+
+/* Animations */
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoom-in {
+  animation: zoomIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Checkbox / Radio styling inside Modal */
+label:has(input[type="radio"]:checked) {
+  border-color: #8D6E63;
+  background-color: #EFEBE9;
+  color: #5D4037;
+  box-shadow: 0 0 0 1px #8D6E63;
+}
+```
+
+---
