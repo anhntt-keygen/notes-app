@@ -1,0 +1,27 @@
+{
+  "name": "cafe-order-manager",
+  "version": "1.0.0",
+  "description": "Cafe Order Management System with Realtime dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test cafe.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1"
+  },
+  "keywords": [
+    "cafe",
+    "order-management",
+    "pos",
+    "vanilla-js"
+  ],
+  "author": "Vibecode Senior Developer",
+  "license": "MIT"
+}
+```
+
+---
